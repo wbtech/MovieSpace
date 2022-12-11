@@ -1,0 +1,38 @@
+.content {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+}
+
+.box {
+  width: 50%;
+  background-color: white;
+  box-shadow: 0 0 10px aqua;
+  border-radius: 10px;
+  position: absolute;
+  padding: 5px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contentBox {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}
+
+.close {
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.close:hover {
+  background-color: rgb(100, 166, 186);
+  color: white;
+}

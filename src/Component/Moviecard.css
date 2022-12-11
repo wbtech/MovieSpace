@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.movieWrap {
+  margin: 3px;
+  margin-bottom: 2rem;
+  text-align: center;
+  border-radius: 10px;
+
+}
+
+.movie {
+  padding: 0 5px 0 5px;
+  border-radius: 9px;
+}
+
+.check {
+  cursor: pointer;
+  padding: 3px;
+}
+
+.check:hover {
+  background-color: rgb(100, 166, 186);
+  color: rgb(255, 255, 255);
+}
+
+#move img {
+  width: 80%;
+  object-fit: cover;
+}
